@@ -1,0 +1,22 @@
+{
+  "_type": "location",
+  "BSSID": "<router bssid>",
+  "SSID": "<router ssid>",
+  "_id": "<id>",
+  "acc": 100,
+  "alt": 245,
+  "batt": 46,
+  "bs": 1,
+  "cog": 0,
+  "conn": "w",
+  "created_at": 1774787971,
+  "lat": 48.0,
+  "lon": 15.0,
+  "m": 1,
+  "source": "fused",
+  "t": "p",
+  "tid": "p1",
+  "tst": 1774787960,
+  "vac": 100,
+  "vel": 0
+}

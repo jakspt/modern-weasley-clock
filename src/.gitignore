@@ -1,0 +1,4 @@
+# for storing MQTT credentials and other configuration data
+../.env
+# logs
+*.log

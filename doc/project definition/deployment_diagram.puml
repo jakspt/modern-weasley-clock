@@ -1,0 +1,35 @@
+@startuml deployment_diagram
+left to right direction
+
+node "Mobile Device" <<iOS / Android>> as phone {
+    artifact "OwnTracks App" as owntracks
+}
+
+cloud "HiveMQ Cloud PaaS" <<Virtual Server>> as cloud {
+    artifact "MQTT Broker" as broker
+}
+
+node "Raspberry Pi 2/3 B" <<Microcomputer>> as rpi {
+    card "Python 3 Runtime" as py {
+        artifact "Weasley Clock Core Logic\n(Data, App, Presentation)" as core_app
+    }
+    artifact "config.json" as config
+}
+
+node "Hardware Peripherals" as hw {
+    node "WS2812B LED Ring" as leds
+    node "Physical Toggle Switch" as switch
+}
+
+leds -[hidden]right-> switch
+
+owntracks ..> broker : <<protocol>>\nMQTT over TLS
+py ..> broker : <<protocol>>\nMQTT over TLS
+
+core_app ..> config : <<read>>
+
+
+py --> leds : <<protocol>>\nGPIO (PWM)
+switch --> py : <<protocol>>\nGPIO (Interrupt)
+
+@enduml

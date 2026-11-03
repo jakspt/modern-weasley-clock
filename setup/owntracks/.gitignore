@@ -1,0 +1,7 @@
+config.otrc
+config_p1.otrc
+config_p2.otrc
+config_p3.otrc
+config_p4.otrc
+*.json
+!example_loc.json

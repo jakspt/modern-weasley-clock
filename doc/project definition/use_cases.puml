@@ -1,0 +1,24 @@
+@startuml usecase_diagram
+left to right direction
+
+rectangle "Ambient Location Awareness System"{
+    (Update Location Data) as update_loc
+    (View Ambient Location) as view_loc
+    (Toggle Privacy Mode) as toggle_privacy
+    (View System Error Status) as error_status
+    (Configure System Parameters) as cfg_geofences
+}
+
+:Household Member: as end_user
+:Admin: as admin
+:OwnTracks App: as app <<External System>>
+
+
+app --> update_loc
+end_user <|- admin
+end_user --> view_loc
+end_user --> error_status
+end_user --> toggle_privacy
+admin --> cfg_geofences
+
+@enduml

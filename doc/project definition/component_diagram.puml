@@ -1,0 +1,39 @@
+@startuml component_diagram
+left to right direction
+
+
+' Components
+component "MQTT Broker" as mqtt 
+component "OwnTracks App" as app
+package "Weasley Clock (Raspberry Pi)" {
+    [Data Layer] as data_layer
+    [Application Layer] as app_layer 
+    [Presentation Layer] as presentation_layer 
+}
+
+
+' Interfaces
+() "MQTT Subscribe" as subscribe
+() "MQTT Publish" as publish
+
+() "Location Event API" as location_event
+() "Display API" as display_api
+() "Hardware Interrupt" as privacy_interrupt
+
+mqtt -- publish
+mqtt -- subscribe
+
+app .> publish
+data_layer ..> subscribe
+
+data_layer ..> location_event : triggers
+app_layer - location_event
+
+presentation_layer -- display_api
+app_layer .> display_api : commands
+
+presentation_layer ..> privacy_interrupt : fires
+app_layer -- privacy_interrupt
+
+
+@enduml

@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   viewBox="0 0 640 640"
+   version="1.1"
+   id="svg1"
+   sodipodi:docname="skull-solid-full.svg"
+   inkscape:version="1.3 (0e150ed6c4, 2023-07-21)"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <defs
+     id="defs1" />
+  <sodipodi:namedview
+     id="namedview1"
+     pagecolor="#ffffff"
+     bordercolor="#000000"
+     borderopacity="0.25"
+     inkscape:showpageshadow="2"
+     inkscape:pageopacity="0.0"
+     inkscape:pagecheckerboard="0"
+     inkscape:deskcolor="#d1d1d1"
+     inkscape:zoom="1.771875"
+     inkscape:cx="319.71781"
+     inkscape:cy="320"
+     inkscape:window-width="2560"
+     inkscape:window-height="1349"
+     inkscape:window-x="-9"
+     inkscape:window-y="-9"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="svg1" />
+  <!--!Font Awesome Free 7.2.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free Copyright 2026 Fonticons, Inc.-->
+  <path
+     id="path1"
+     d="M 320 64 C 178.60014 64 64 171.50013 64 304 C 64 379.79992 101.50006 447.40043 160 491.40039 L 160 528 C 160 554.49997 181.50003 576 208 576 L 240 576 L 240 536 C 240 522.70001 250.70001 512 264 512 C 277.29999 512 288 522.70001 288 536 L 288 576 L 352 576 L 352 536 C 352 522.70001 362.70001 512 376 512 C 389.29999 512 400 522.70001 400 536 L 400 576 L 432 576 C 458.49997 576 480 554.49997 480 528 L 480 491.40039 C 538.49994 447.40043 576 379.79992 576 304 C 576 171.50013 461.39986 64 320 64 z M 224 256 C 259.29996 256 288 284.70004 288 320 C 288 355.29996 259.29996 384 224 384 C 188.70004 384 160 355.29996 160 320 C 160 284.70004 188.70004 256 224 256 z M 416 256 C 451.29996 256 480 284.70004 480 320 C 480 355.29996 451.29996 384 416 384 C 380.70004 384 352 355.29996 352 320 C 352 284.70004 380.70004 256 416 256 z " />
+</svg>

@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   viewBox="0 0 640 640"
+   version="1.1"
+   id="svg1"
+   sodipodi:docname="house-solid-full.svg"
+   inkscape:version="1.3 (0e150ed6c4, 2023-07-21)"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <defs
+     id="defs1" />
+  <sodipodi:namedview
+     id="namedview1"
+     pagecolor="#ffffff"
+     bordercolor="#000000"
+     borderopacity="0.25"
+     inkscape:showpageshadow="2"
+     inkscape:pageopacity="0.0"
+     inkscape:pagecheckerboard="0"
+     inkscape:deskcolor="#d1d1d1"
+     inkscape:zoom="1.771875"
+     inkscape:cx="319.71781"
+     inkscape:cy="320"
+     inkscape:window-width="2560"
+     inkscape:window-height="1349"
+     inkscape:window-x="-9"
+     inkscape:window-y="-9"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="svg1" />
+  <!--!Font Awesome Free 7.2.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free Copyright 2026 Fonticons, Inc.-->
+  <path
+     id="path1"
+     d="M 320.01172 64.050781 C 312.19923 64.050781 304.40078 66.899615 298.30078 72.599609 L 74.300781 280.59961 C 64.700791 289.5996 61.500786 303.49923 66.300781 315.69922 C 71.100776 327.89921 82.800013 336 96 336 L 112 336 L 112 512 C 112 547.29996 140.70004 576 176 576 L 464 576 C 499.29996 576 528 547.29996 528 512 L 528 336 L 544 336 C 557.19999 336 569.00079 327.89921 573.80078 315.69922 C 578.60078 303.49923 575.40077 289.4996 565.80078 280.59961 L 341.80078 72.599609 C 335.65079 66.899615 327.82421 64.050781 320.01172 64.050781 z M 304 384 L 336 384 C 362.49997 384 384 405.50003 384 432 L 384 528 L 256 528 L 256 432 C 256 405.50003 277.50003 384 304 384 z " />
+</svg>
